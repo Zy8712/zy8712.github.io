@@ -1,0 +1,238 @@
+<!-- Site Created via Leveraging Templates Provided by W3Schools-->
+<!DOCTYPE html> <!-- Declare HTML5 -->
+<html>
+<head>
+  <!-- -->
+  <title>Bryan's Profile Site</title> <!-- Display Browser Title Mark -->
+  <meta charset="UTF-8"> <!-- Declare standard 8-bit encoding "UTF" -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!--  -->
+
+  <!-- CSS Styling & Javascript Script for Site Interactions -->
+  <link href="profile_site.css" rel="stylesheet" type="text/css"> <!-- Link CSS File to HTML -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- Access CSS Default Settings from W3Schools CSS File Online -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel"> <!-- Access Google Fonts CSS API -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Access FontAwesome for Icons -->
+  <script type="text/javascript" src="profile_script.js"></script> <!-- Link Javascript File to HTML -->
+</head>
+
+<!-- Actual Site Content -->
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+
+    <!-- Load in Icons and Text for Navigation Menu Buttons -->
+    <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i> Home</a> <!-- Home Button -->
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> About</a> <!-- About Button -->
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-folder"></i> Portfolio</a> <!-- Portfolio Button -->
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Contact</a> <!-- Contact Button -->
+    <a href="https://github.com/Zy8712" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-github"></i></a> <!-- GitHub Button (no text, just icon) -->
+    <a href="https://www.linkedin.com/in/bryan-li-a15437250/" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-linkedin"></i></a> <!-- LinkedIn Button (no text, just icon) -->
+    <a href="https://leetcode.com/Zy8712/" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-code"></i></a> <!-- LeetCode Button (no text, just icon) -->
+  </div>
+
+  <!-- Navbar on small screens -->
+  <!-- When Screen/Browser is small, the home button stays in the top left corner. The top right corner now has a drop down menu that shows everything below. -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-user"></i> About</a> <!-- About Button -->
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-folder"></i> Portfolio</a> <!-- Portfolio Button -->
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-envelope"></i> Contact</a> <!-- Contact Button -->
+    <a href="https://github.com/Zy8712" target="_blank" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-github"></i> GitHub</a> <!-- GitHub Button (with text, not just icon) -->
+    <a href="https://www.linkedin.com/in/bryan-li-a15437250/" target="_blank" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-linkedin"></i> LinkedIn</a> <!-- LinkedIn Button (with text, not just icon) -->
+    <a href="https://leetcode.com/Zy8712/" target="_blank" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-code"></i> LeetCode</a> <!-- LinkedIn Button (with text, not just icon) -->
+  </div>
+</div>
+
+
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">BRYAN'S <span class="w3-hide-small">PROFILE</span> WEBSITE</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center"><i class="fa fa-user"></i> ABOUT ME</h3>
+  <p class="w3-center"><br><em>"A passionate learner looking for more opportunities to further educate myself and expand my horizons."</em></p>
+
+  <!-- A small paragraph that appears in the About Me section. Text has been indented for proper formatting. -->
+  <p style="text-indent:50px">A recently graduated Computer Science student with an excellent understanding of
+    various industry-standard programming languages, platforms, frameworks, design
+    techniques and tools. Using my strong communication and teamwork skills I have
+    been able to successfully complete and achieve the goals laid out before me in
+    various group projects. I am also a creative and analytical thinker capable of
+    working under pressure in fast-paced environments where flexibility is required.
+    I would also consider myself to be a passionate learner, constantly looking for
+    opportunities to learn new things and gain more experience. This also works together
+    with my tendency to plan ahead while also operating using a “work smarter” mentality.</p>
+
+  <!-- A small paragraph that appears in the About Me section. Text has been indented for proper formatting. -->
+  <p style="text-indent:50px">From a technical perspective, I have experience with
+    various industry-standard programming languages, tools and applications. This
+    includes: Java, C++, Python, HTML, CSS, Javascript, and many others. In terms of
+    general knowledge I have learned and applied various concepts pertaining to topics
+    such as: Machine Learning, Pattern Recognition, Data Mining, Artificial Intelligence,
+    and Advanced Data Structures. </p>
+
+  <div class="w3-row">
+
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-address-book   w3-margin-right"></i>Bryan Li</b></p><br>
+      <img src="assets/York-University-sign.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt=" YorkU">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p style="text-indent:50px"> For my post-secondary education I went to York University to do a Specialized Honours Bachelor (BSc) in
+        Computer Science. Aside from a wide variety of Computer Science courses, while studying at YorkU, I also
+        dabbled in taking courses I normally wouldn't take. Some of the most notable of these elective courses include: Micro & Macroeconomics
+        Psychology, Film Analysis, and Astronomy. What I enjoyed mosy about taking these courses is learning about things I most
+      like would've never known about had I stuck solely to what I was used to.</p>
+      <p> Some other fun facts about me:</p> <ul><li>my favourite sports are: basketball, badminton, and table tennis</li>
+      <li>my favourite sitcom is: The Office (US)</li><li>my favourite Christmas films of All-Time are: Home Alone 1 & 2</li></ul>
+    </div>
+
+  </div>
+
+  <div>
+    <h3 class="w3-center"><i class="fa fa-university"></i> EDUCATION</h3>
+    <br>
+    <h4>Lassonde School of Engineering, York University</h4>
+    <h5 class="w3-text-red"><i class="fa fa-calendar"></i> September 2018 - August 2022<h5>
+      <h6>Completed a Specialized Honours Bachelor Degree in Computer Science (BSc).</h6>
+  </div>
+
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">6+ Years Experience</span><br>
+    Working With Java
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">3+ Years Experience</span><br>
+    Working with HTML, CSS, Javascript
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">2+ Years Experience</span><br>
+    Working with Python, C/C++/C#, Jupyter
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">~1 Year Experience+</span><br>
+    Working with MatLab, Fortran, and others
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center"></h3>
+  <h4 class="w3-center"> The following are a series of links that lead to various folders from my GitHub repository.</h4>
+  <br>
+  <br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <a href="https://github.com/Zy8712/zy8712.github.io" target="_blank" style="text-decoration: none">
+      <h1 class="w3-text-purple"><i class="fa fa-folder"></i><h1>
+      <h5 class="w3-text-purple">Profile Site<h5>
+      </a>
+    </div>
+
+    <div class="w3-col m3">
+      <a href="https://github.com/Zy8712/LeetCode-Practice" target="_blank" style="text-decoration: none">
+      <h1 class="w3-text-blue"><i class="fa fa-folder"></i><h1>
+      <h5 class="w3-text-blue">LeetCode Practice<h5>
+      </a>    </div>
+
+    <div class="w3-col m3">
+      <a href="https://github.com/Zy8712/Connect-4-Using-Artificial-Intelligence" target="_blank" style="text-decoration: none">
+      <h1 class="w3-text-green"><i class="fa fa-folder"></i><h1>
+      <h5 class="w3-text-green">Connect 4 AI<h5>
+      </a>    </div>
+
+    <div class="w3-col m3">
+      <a href="https://github.com/Zy8712/Data-Mining-Course-Work" target="_blank" style="text-decoration: none">
+      <h1 class="w3-text-yellow"><i class="fa fa-folder"></i><h1>
+      <h5 class="w3-text-yellow">Data Mining Work<h5>
+      </a>    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <a href="https://github.com/Zy8712/Mobile-Computing-in-Android-Studio" target="_blank" style="text-decoration: none">
+      <h1 class="w3-text-black"><i class="fa fa-folder"></i><h1>
+      <h5 class="w3-text-black">Android Applications<h5>
+      </a>    </div>
+
+    <div class="w3-col m3">
+      <a href="https://github.com/Zy8712/zy8712.github.io" target="_blank" style="text-decoration: none">
+      <h1 class="w3-text-grey"><i class="fa fa-folder"></i><h1>
+      <h5 class="w3-text-grey">Data Structures Fundamentals<h5>
+      </a>    </div>
+
+    <div class="w3-col m3">
+      <a href="https://github.com/Zy8712/Machine-Learning-Pattern-Recognition-Course-Assignments" target="_blank" style="text-decoration: none">
+      <h1 class="w3-text-red"><i class="fa fa-folder"></i><h1>
+      <h5 class="w3-text-red">Machine Learning & Pattern Recognition Work<h5>
+      </a>    </div>
+
+    <div class="w3-col m3">
+      <a href="https://github.com/Zy8712/Boggle_Project" target="_blank" style="text-decoration: none">
+      <h1 class="w3-text-orange"><i class="fa fa-folder"></i><h1>
+      <h5 class="w3-text-orange">Highschool Boggle Project<h5>
+      </a>    </div>
+  </div>
+</div>
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT INFO</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">CONTACT INFO</h3>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Richmond Hill, ON<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: bryan.li71298@gmail.com<br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://github.com/Zy8712" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/bryan-li-a15437250/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <a href="https://leetcode.com/Zy8712/" target="_blank"><i class="fa fa-code w3-hover-opacity"></i></a>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
