@@ -8,58 +8,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"> <!--  -->
 
   <!-- CSS Styling & Javascript Script for Site Interactions -->
-  <link href="profile_site.css" rel="stylesheet" type="text/css"> <!-- Link CSS File to HTML -->
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- Access CSS Default Settings from W3Schools CSS File Online -->
+  <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/siteB.css">  Access CSS Default Settings from W3Schools CSS File Online -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel"> <!-- Access Google Fonts CSS API -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Access FontAwesome for Icons -->
+  <link href="profile_site.css" rel="stylesheet" type="text/css"> <!-- Link CSS File to HTML -->
   <script type="text/javascript" src="profile_script.js"></script> <!-- Link Javascript File to HTML -->
 </head>
 
 <!-- Actual Site Content -->
 <body>
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
+<div class="siteB-top"> <!-- -->
+  <div class="siteB-bar" id="myNavbar">
 
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+    <a class="siteB-bar-item siteB-button siteB-hover-black siteB-hide-medium siteB-hide-large siteB-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
 
     <!-- Load in Icons and Text for Navigation Menu Buttons -->
-    <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i> Home</a> <!-- Home Button -->
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> About</a> <!-- About Button -->
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-folder"></i> Portfolio</a> <!-- Portfolio Button -->
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Contact</a> <!-- Contact Button -->
-    <a href="https://github.com/Zy8712" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-github"></i></a> <!-- GitHub Button (no text, just icon) -->
-    <a href="https://www.linkedin.com/in/bryan-li-a15437250/" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-linkedin"></i></a> <!-- LinkedIn Button (no text, just icon) -->
-    <a href="https://leetcode.com/Zy8712/" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-code"></i></a> <!-- LeetCode Button (no text, just icon) -->
+    <a href="#home" class="siteB-bar-item siteB-button"><i class="fa fa-home"></i> Home</a> <!-- Home Button -->
+    <a href="#about" class="siteB-bar-item siteB-button siteB-hide-small"><i class="fa fa-user"></i> About</a> <!-- About Button -->
+    <a href="#portfolio" class="siteB-bar-item siteB-button siteB-hide-small"><i class="fa fa-folder"></i> Portfolio</a> <!-- Portfolio Button -->
+    <a href="#contact" class="siteB-bar-item siteB-button siteB-hide-small"><i class="fa fa-envelope"></i> Contact</a> <!-- Contact Button -->
+    <a href="https://github.com/Zy8712" target="_blank" class="siteB-bar-item siteB-button siteB-hide-small siteB-right"><i class="fa fa-github"></i></a> <!-- GitHub Button (no text, just icon) -->
+    <a href="https://www.linkedin.com/in/bryan-li-a15437250/" target="_blank" class="siteB-bar-item siteB-button siteB-hide-small siteB-right"><i class="fa fa-linkedin"></i></a> <!-- LinkedIn Button (no text, just icon) -->
+    <a href="https://leetcode.com/Zy8712/" target="_blank" class="siteB-bar-item siteB-button siteB-hide-small siteB-right"><i class="fa fa-code"></i></a> <!-- LeetCode Button (no text, just icon) -->
   </div>
 
   <!-- Navbar on small screens -->
   <!-- When Screen/Browser is small, the home button stays in the top left corner. The top right corner now has a drop down menu that shows everything below. -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-user"></i> About</a> <!-- About Button -->
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-folder"></i> Portfolio</a> <!-- Portfolio Button -->
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-envelope"></i> Contact</a> <!-- Contact Button -->
-    <a href="https://github.com/Zy8712" target="_blank" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-github"></i> GitHub</a> <!-- GitHub Button (with text, not just icon) -->
-    <a href="https://www.linkedin.com/in/bryan-li-a15437250/" target="_blank" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-linkedin"></i> LinkedIn</a> <!-- LinkedIn Button (with text, not just icon) -->
-    <a href="https://leetcode.com/Zy8712/" target="_blank" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-code"></i> LeetCode</a> <!-- LinkedIn Button (with text, not just icon) -->
+  <div id="navDemo" class="siteB-bar-block siteB-white siteB-hide siteB-hide-large siteB-hide-medium">
+    <a href="#about" class="siteB-bar-item siteB-button" onclick="toggleFunction()"><i class="fa fa-user"></i> About</a> <!-- About Button -->
+    <a href="#portfolio" class="siteB-bar-item siteB-button" onclick="toggleFunction()"><i class="fa fa-folder"></i> Portfolio</a> <!-- Portfolio Button -->
+    <a href="#contact" class="siteB-bar-item siteB-button" onclick="toggleFunction()"><i class="fa fa-envelope"></i> Contact</a> <!-- Contact Button -->
+    <a href="https://github.com/Zy8712" target="_blank" class="siteB-bar-item siteB-button" onclick="toggleFunction()"><i class="fa fa-github"></i> GitHub</a> <!-- GitHub Button (with text, not just icon) -->
+    <a href="https://www.linkedin.com/in/bryan-li-a15437250/" target="_blank" class="siteB-bar-item siteB-button" onclick="toggleFunction()"><i class="fa fa-linkedin"></i> LinkedIn</a> <!-- LinkedIn Button (with text, not just icon) -->
+    <a href="https://leetcode.com/Zy8712/" target="_blank" class="siteB-bar-item siteB-button" onclick="toggleFunction()"><i class="fa fa-code"></i> LeetCode</a> <!-- LinkedIn Button (with text, not just icon) -->
   </div>
 </div>
 
 
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">BRYAN'S <span class="w3-hide-small">PROFILE</span> WEBSITE</span>
+<div class="bgimg-1 siteB-display-container siteB-opacity-min" id="home">
+  <div class="siteB-display-middle" style="white-space:nowrap;">
+    <span class="siteB-center siteB-padding-large siteB-black siteB-xlarge siteB-wide siteB-animate-opacity">BRYAN'S <span class="siteB-hide-small">PROFILE</span> WEBSITE</span>
   </div>
 </div>
 
 <!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center"><i class="fa fa-user"></i> ABOUT ME</h3>
-  <p class="w3-center"><br><em>"A passionate learner looking for more opportunities to further educate myself and expand my horizons."</em></p>
+<div class="siteB-content siteB-container siteB-padding-64" id="about">
+  <h3 class="siteB-center"><i class="fa fa-user"></i> ABOUT ME</h3>
+  <p class="siteB-center"><br><em>"A passionate learner looking for more opportunities to further educate myself and expand my horizons."</em></p>
 
   <!-- A small paragraph that appears in the About Me section. Text has been indented for proper formatting. -->
   <p style="text-indent:50px">A recently graduated Computer Science student with an excellent understanding of
@@ -80,15 +80,15 @@
     such as: Machine Learning, Pattern Recognition, Data Mining, Artificial Intelligence,
     and Advanced Data Structures. </p>
 
-  <div class="w3-row">
+  <div class="siteB-row">
 
-    <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-address-book   w3-margin-right"></i>Bryan Li</b></p><br>
-      <img src="assets/York-University-sign.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt=" YorkU">
+    <div class="siteB-col m6 siteB-center siteB-padding-large">
+      <p><b><i class="fa fa-address-book   siteB-margin-right"></i>Bryan Li</b></p><br>
+      <img src="assets/York-University-sign.png" class="siteB-round siteB-image siteB-opacity siteB-hover-opacity-off" alt=" YorkU">
     </div>
 
     <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
+    <div class="siteB-col m6 siteB-hide-small siteB-padding-large">
       <p style="text-indent:50px"> For my post-secondary education I went to York University to do a Specialized Honours Bachelor (BSc) in
         Computer Science. Aside from a wide variety of Computer Science courses, while studying at YorkU, I also
         dabbled in taking courses I normally wouldn't take. Some of the most notable of these elective courses include: Micro & Macroeconomics
@@ -101,137 +101,137 @@
   </div>
 
   <div>
-    <h3 class="w3-center"><i class="fa fa-university"></i> EDUCATION</h3>
+    <h3 class="siteB-center"><i class="fa fa-university"></i> EDUCATION</h3>
     <br>
     <h4>Lassonde School of Engineering, York University</h4>
-    <h5 class="w3-text-red"><i class="fa fa-calendar"></i> September 2018 - August 2022<h5>
+    <h5 class="siteB-text-red"><i class="fa fa-calendar"></i> September 2018 - August 2022<h5>
       <h6>Completed a Specialized Honours Bachelor Degree in Computer Science (BSc).</h6>
   </div>
 
 </div>
 
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">6+ Years Experience</span><br>
+<div class="siteB-row siteB-center siteB-dark-grey siteB-padding-16">
+  <div class="siteB-quarter siteB-section">
+    <span class="siteB-xlarge">6+ Years Experience</span><br>
     Working With Java
   </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">3+ Years Experience</span><br>
+  <div class="siteB-quarter siteB-section">
+    <span class="siteB-xlarge">3+ Years Experience</span><br>
     Working with HTML, CSS, Javascript
   </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">2+ Years Experience</span><br>
+  <div class="siteB-quarter siteB-section">
+    <span class="siteB-xlarge">2+ Years Experience</span><br>
     Working with Python, C/C++/C#, Jupyter
   </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">~1 Year Experience+</span><br>
+  <div class="siteB-quarter siteB-section">
+    <span class="siteB-xlarge">~1 Year Experience+</span><br>
     Working with MatLab, Fortran, and others
   </div>
 </div>
 
 <!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+<div class="bgimg-2 siteB-display-container siteB-opacity-min"  id="portfolio">
+  <div class="siteB-display-middle">
+    <span class="siteB-xxlarge siteB-text-white siteB-wide">PORTFOLIO</span>
   </div>
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center"></h3>
-  <h4 class="w3-center"> The following are a series of links that lead to various folders from my GitHub repository.</h4>
+<div class="siteB-content siteB-container siteB-padding-64">
+  <h3 class="siteB-center"></h3>
+  <h4 class="siteB-center"> The following are a series of links that lead to various folders from my GitHub repository.</h4>
   <br>
   <br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
+  <div class="siteB-row-padding siteB-center">
+    <div class="siteB-col m3">
       <a href="https://github.com/Zy8712/zy8712.github.io" target="_blank" style="text-decoration: none">
-      <h1 class="w3-text-purple"><i class="fa fa-folder"></i><h1>
-      <h5 class="w3-text-purple">Profile Site<h5>
+      <h1 class="siteB-text-grey"><i class="fa fa-folder"></i><h1>
+      <h5 class="siteB-text-grey">Profile Site<h5>
       </a>
     </div>
 
-    <div class="w3-col m3">
+    <div class="siteB-col m3">
       <a href="https://github.com/Zy8712/LeetCode-Practice" target="_blank" style="text-decoration: none">
-      <h1 class="w3-text-blue"><i class="fa fa-folder"></i><h1>
-      <h5 class="w3-text-blue">LeetCode Practice<h5>
+      <h1 class="siteB-text-grey"><i class="fa fa-folder"></i><h1>
+      <h5 class="siteB-text-grey">LeetCode Practice<h5>
       </a>    </div>
 
-    <div class="w3-col m3">
+    <div class="siteB-col m3">
       <a href="https://github.com/Zy8712/Connect-4-Using-Artificial-Intelligence" target="_blank" style="text-decoration: none">
-      <h1 class="w3-text-green"><i class="fa fa-folder"></i><h1>
-      <h5 class="w3-text-green">Connect 4 AI<h5>
+      <h1 class="siteB-text-grey"><i class="fa fa-folder"></i><h1>
+      <h5 class="siteB-text-grey">Connect 4 AI<h5>
       </a>    </div>
 
-    <div class="w3-col m3">
+    <div class="siteB-col m3">
       <a href="https://github.com/Zy8712/Data-Mining-Course-Work" target="_blank" style="text-decoration: none">
-      <h1 class="w3-text-yellow"><i class="fa fa-folder"></i><h1>
-      <h5 class="w3-text-yellow">Data Mining Work<h5>
+      <h1 class="siteB-text-grey"><i class="fa fa-folder"></i><h1>
+      <h5 class="siteB-text-grey">Data Mining Work<h5>
       </a>    </div>
   </div>
 
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
+  <div class="siteB-row-padding siteB-center siteB-section">
+    <div class="siteB-col m3">
       <a href="https://github.com/Zy8712/Mobile-Computing-in-Android-Studio" target="_blank" style="text-decoration: none">
-      <h1 class="w3-text-black"><i class="fa fa-folder"></i><h1>
-      <h5 class="w3-text-black">Android Applications<h5>
+      <h1 class="siteB-text-grey"><i class="fa fa-folder"></i><h1>
+      <h5 class="siteB-text-grey">Android Applications<h5>
       </a>    </div>
 
-    <div class="w3-col m3">
+    <div class="siteB-col m3">
       <a href="https://github.com/Zy8712/zy8712.github.io" target="_blank" style="text-decoration: none">
-      <h1 class="w3-text-grey"><i class="fa fa-folder"></i><h1>
-      <h5 class="w3-text-grey">Data Structures Fundamentals<h5>
+      <h1 class="siteB-text-grey"><i class="fa fa-folder"></i><h1>
+      <h5 class="siteB-text-grey">Data Structures Fundamentals<h5>
       </a>    </div>
 
-    <div class="w3-col m3">
+    <div class="siteB-col m3">
       <a href="https://github.com/Zy8712/Machine-Learning-Pattern-Recognition-Course-Assignments" target="_blank" style="text-decoration: none">
-      <h1 class="w3-text-red"><i class="fa fa-folder"></i><h1>
-      <h5 class="w3-text-red">Machine Learning & Pattern Recognition Work<h5>
+      <h1 class="siteB-text-grey"><i class="fa fa-folder"></i><h1>
+      <h5 class="siteB-text-greyd">Machine Learning & Pattern Recognition Work<h5>
       </a>    </div>
 
-    <div class="w3-col m3">
+    <div class="siteB-col m3">
       <a href="https://github.com/Zy8712/Boggle_Project" target="_blank" style="text-decoration: none">
-      <h1 class="w3-text-orange"><i class="fa fa-folder"></i><h1>
-      <h5 class="w3-text-orange">Highschool Boggle Project<h5>
+      <h1 class="siteB-text-grey"><i class="fa fa-folder"></i><h1>
+      <h5 class="siteB-text-grey">Highschool Boggle Project<h5>
       </a>    </div>
   </div>
 </div>
 
 
 <!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT INFO</span>
+<div class="bgimg-3 siteB-display-container siteB-opacity-min"  id="contact">
+  <div class="siteB-display-middle">
+     <span class="siteB-xxlarge siteB-text-white siteB-wide">CONTACT INFO</span>
   </div>
 </div>
 
 <!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">CONTACT INFO</h3>
+<div class="siteB-content siteB-container siteB-padding-64">
+  <h3 class="siteB-center">CONTACT INFO</h3>
 
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-      <img src="assets/background31.png" class="w3-image w3-round" style="width:100%" alt="mountains">
+  <div class="siteB-row siteB-padding-32 siteB-section">
+    <div class="siteB-col m4 siteB-container">
+      <img src="assets/background31.png" class="siteB-image siteB-round" style="width:100%" alt="mountains">
     </div>
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Richmond Hill, ON<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: bryan.li71298@gmail.com<br>
+    <div class="siteB-col m8 siteB-panel">
+      <div class="siteB-large siteB-margin-bottom">
+        <i class="fa fa-map-marker fa-fw siteB-hover-text-black siteB-xlarge siteB-margin-right"></i> Richmond Hill, ON<br>
+        <i class="fa fa-envelope fa-fw siteB-hover-text-black siteB-xlarge siteB-margin-right"></i> Email: bryan.li71298@gmail.com<br>
       </div>
     </div>
   </div>
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <a href="https://github.com/Zy8712" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
-    <a href="https://www.linkedin.com/in/bryan-li-a15437250/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-    <a href="https://leetcode.com/Zy8712/" target="_blank"><i class="fa fa-code w3-hover-opacity"></i></a>
+<footer class="siteB-center siteB-black siteB-padding-64 siteB-opacity siteB-hover-opacity-off">
+  <a href="#home" class="siteB-button siteB-light-grey"><i class="fa fa-arrow-up siteB-margin-right"></i>To the top</a>
+  <div class="siteB-xlarge siteB-section">
+    <a href="https://github.com/Zy8712" target="_blank"><i class="fa fa-github siteB-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/bryan-li-a15437250/" target="_blank"><i class="fa fa-linkedin siteB-hover-opacity"></i></a>
+    <a href="https://leetcode.com/Zy8712/" target="_blank"><i class="fa fa-code siteB-hover-opacity"></i></a>
   </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Design by <a href="https://www.w3schools.com/w3css/default.asp" title="siteB.CSS" target="_blank" class="siteB-hover-text-green">w3.css</a></p>
 </footer>
 
 </body>
